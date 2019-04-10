@@ -1,0 +1,11 @@
+{
+    "apps": [{
+        "name": "Merak",
+        "script": "./merak.js",
+        "exec_mode":"cluster",
+        "instances":4,
+        "env": {
+            "NODE_ENV": "PROD"
+        }
+    }]
+}

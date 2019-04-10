@@ -1,0 +1,50 @@
+{
+    "development": {
+        "app_port": 6200,
+        "api_version": "V1",
+        "service": "http://localhost:7600",
+        "signature_verification": false,
+        "rpc_port": 8433,
+        "redis": {
+            "host": "127.0.0.1",
+            "port": "6379",
+            "select": "0"
+        },
+        "mysql": {
+            "host": "127.0.0.1",
+            "user": "root",
+            "password": "tu75fed3",
+            "database": "merak"
+        },
+        "elasticsearch": {
+            "host": "196.123.48.2",
+            "port": "9200"
+        }
+    },
+    "production": {
+        "app_port": 7600,
+        "api_version": "V1",
+        "service": "http://localhost:7600",
+        "signature_verification": true,
+        "redis": {
+            "host": "180.7.89.2",
+            "port": "6379",
+            "select": "0"
+        },
+        "tsdb": {
+            "host": "180.7.89.5",
+            "port": "4242"
+        },
+        "mysql": {
+            "host": "127.0.0.1",
+            "user": "root",
+            "password": "tu75fed3",
+            "database": "merak",
+            "port": 3306
+        },
+        "elasticsearch": {
+            "host": "elasticsearch_ip",
+            "port": "9200"
+        }
+    }
+}

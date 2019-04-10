@@ -1,0 +1,10 @@
+#dev 
+.idea
+.vscode
+.git
+dump.rdb
+npm-debug.log.*
+./config/config.json
+
+#node_modues
+/node_modules/

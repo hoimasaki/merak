@@ -1,0 +1,5 @@
+image: centos7-node:6.6
+    
+build:
+    script:
+        - node merak.js
