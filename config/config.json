@@ -13,7 +13,7 @@
         "mysql": {
             "host": "127.0.0.1",
             "user": "root",
-            "password": "tu75fed3",
+            "password": "password",
             "database": "merak"
         },
         "elasticsearch": {
@@ -38,7 +38,7 @@
         "mysql": {
             "host": "127.0.0.1",
             "user": "root",
-            "password": "tu75fed3",
+            "password": "password",
             "database": "merak",
             "port": 3306
         },
