@@ -133,7 +133,7 @@ module.exports = ApiMethod.extend({
                 break;
             case 'Databus':
                 var params = {
-                    "url": "http://sven.bilibili.co/x/admin/apm/databus/alarm"
+                    "url": "http://127.0.0.1"
                 }
                 var app_list = req.get(params)['data']
                 var sven_result = _.findWhere(app_list, {
