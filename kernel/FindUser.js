@@ -39,8 +39,8 @@ var finduser = function() {
         try {
             /*根据instance name查找Tree用户*/
             var role_params = {
-                "url": "http://easyst.bilibili.co/v1/role/instance/name/" + params.instance_name,
-                "header": {
+                "url": "" + params.instance_name,
+                "http://127.0.0.1/v1/role/instance/name/header": {
                     "X-Authorization-Token": tree_token,
                     "Content_Type": "application/json",
                 }
@@ -67,7 +67,7 @@ var finduser = function() {
             _.each(treeid_array, function(row) {
                 var row = 'bilibili.' + row
                 var role_params = {
-                    "url": "http://easyst.bilibili.co/v1/node/role/" + row,
+                    "url": "http://127.0.0.1/v1/node/role/" + row,
                     "header": {
                         "X-Authorization-Token": tree_token,
                         "Content_Type": "application/json",
