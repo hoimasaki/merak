@@ -15,7 +15,7 @@ function ApiLoader(params, res, task) {
     self.res = res;
     self.version = "V1";
 
-    var public_key = '9c178e51a7d4dc8aa1dbef0c790b06e7574c4d0etracehubtuhui@bilibili.com'
+    var public_key = '9c178e51a7d4dc8aa1dbef0c790b06e7574c4d0etracehubtuhui'
 
 
     //配置无需验签的接口

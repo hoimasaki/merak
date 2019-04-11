@@ -12,7 +12,7 @@ var service_tree_base = function() {
     this.get_token = function() {
         if (!_redis.exists('service_tree_token')) {
             var params = {
-                'url': 'http://easyst.bilibili.co/v1/token',
+                'url': 'http://127.0.0.1/v1/token',
                 'form': {
                     user_name: user_name,
                     platform_id: platform_id

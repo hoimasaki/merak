@@ -9,8 +9,8 @@ var email_base = function() {
         port: 465,
         secure: true, // secure:true for port 465, secure:false for port 587
         auth:{
-            user: 'no-reply@bilibili.com',
-            pass: 'WFA7e7OpWFLQSEBL'
+            user: 'no-reply@xxx.com',
+            pass: 'xxx'
         },
     });
 

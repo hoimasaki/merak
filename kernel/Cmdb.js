@@ -16,7 +16,7 @@ var cmdb_base = function() {
         delete args['secret']
 
         var params = {
-            "url":"http://ops-cmdb.bilibili.co/api/tag/list/",
+            "url":"http://127.0.0.1/api/tag/list/",
             "form":args
         }
         console.log(params)
