@@ -18,7 +18,7 @@ for (var i = 0; i < 1000; i++) {
         json: true,
         body: {
             "Action": "CreateEvent2",
-            "PublicKey": "9c178e51a7d4dc8aa1dbef0c790b06e7574c4d0etracehubtuhui@bilibili.com",
+            "PublicKey": "9c178e51a7d4dc8aa1dbef0c790b06e7574c4d0etracehub",
             "Signature": "1",
             "Project": "1",
             "Priority": "1",
@@ -31,7 +31,7 @@ for (var i = 0; i < 1000; i++) {
                 "环境" : "prod"
             },
             "UserName": "tuhui",
-            "TreeId": "ops.bilimoni",
+            "TreeId": "ops.test",
             "SendType": "wechat"
         }
     }
