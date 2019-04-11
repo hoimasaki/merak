@@ -28,91 +28,9 @@ module.exports = ApiMethod.extend({
         var datasource = self.input.DataSource
         var query = self.input.Query
 
-
-        // switch (datasource) {
-        //     case 'hzxs':
-        //         var query_url = 'http://hzxs.prometheus.bilibili.co/api/v1/query'
-        //         break;
-        //     case 'shylf':
-        //         var query_url = 'http://shylf.prometheus.bilibili.co/api/v1/query'
-        //         break;
-        //     case 'bak':
-        //         var query_url = 'http://bak-prometheus.bilibili.co/api/v1/query'
-        //         break;
-        //     case 'docker':
-        //         var query_url = 'http://docker.prometheus.bilibili.co/api/v1/query'
-        //         break;
-        //     case 'app':
-        //         var query_url = 'http://app.prometheus.bilibili.co/api/v1/query'
-        //         break;
-        //     case 'tencent_main':
-        //         var query_url = 'http://main.tx.prometheus.bilibili.co/api/v1/query'
-        //         break;
-        //     case 'kingsoft_main':
-        //         var query_url = 'http://120.92.79.212:9090/api/v1/query'
-        //         break;
-        // }
-
         switch (datasource) {
             case 'shsb':
-                var query_url = 'http://172.18.20.56:9090/api/v1/query'
-                break;
-            case 'backup':
-                var query_url = 'http://172.18.20.170:9090/api/v1/query'
-                break;
-            case 'mysql':
-                var query_url = 'http://172.18.20.79:9090/api/v1/query'
-                break;
-            case 'shjd':
-                var query_url = 'http://172.24.20.18:9090/api/v1/query'
-                break;
-            case 'jssz':
-                var query_url = 'http://10.69.66.13:9090/api/v1/query'
-                break;
-            case 'hzxs':
-                var query_url = 'http://hzxs.prometheus.bilibili.co/api/v1/query'
-                break;
-            case 'hzxs_other':
-                var query_url = 'http://172.19.3.58:9090/api/v1/query'
-                break;
-            case 'shylf':
-                var query_url = 'http://shylf.prometheus.bilibili.co/api/v1/query'
-                break;
-            case 'bak':
-                var query_url = 'http://bak-prometheus.bilibili.co/api/v1/query'
-                break;
-            case 'docker':
-                var query_url = 'http://docker.prometheus.bilibili.co/api/v1/query'
-                break;
-            case 'app':
-                var query_url = 'http://app.prometheus.bilibili.co/api/v1/query'
-                break;
-            case 'tencent_main':
-                var query_url = 'http://main.tx.prometheus.bilibili.co/api/v1/query'
-                break;
-            case 'tencent_game':
-                var query_url = 'http://10.29.0.16:9090/api/v1/query'
-                break;
-            case 'kingsoft_main':
-                var query_url = 'http://120.92.79.212:9090/api/v1/query'
-                break;
-            case 'aliyun_cdn':
-                var query_url = 'http://172.26.73.77:9090/api/v1/query'
-                break;
-            case 'aliyun_main':
-                var query_url = 'http://172.26.73.206:9090/api/v1/query'
-                break;
-            case 'aliyun_game':
-                var query_url = 'http://10.26.0.128:9090/api/v1/query'
-                break;
-            case 'cds':
-                var query_url = 'http://146.196.58.52:9090/api/v1/query'
-                break;
-            case 'huawei':
-                var query_url = 'http://122.112.219.69:9090/api/v1/query'
-                break;
-            case 'ucloud':
-                var query_url = 'http://103.98.17.167:9090/api/v1/query'
+                var query_url = 'http://127.0.0.1:9090/api/v1/query'
                 break;
         }
 
